@@ -56,3 +56,27 @@ section .container {
     position: relative;
     top: 1em;
 }
+
+#contactForm {
+    margin: 1em 0;
+}
+
+.form-style {
+    margin-bottom: 1em;
+    width: 100%;
+    height: 2.5em;
+    padding: 1em;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    line-height: 1.5;
+}
+
+textarea.form-style {
+    min-height: 9.5em;
+}
+
+.btn {
+    background-color: #fed136;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
