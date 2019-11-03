@@ -29,7 +29,11 @@
 #portfolio,
 #about,
 #contact {
+    display: flex;
     background-color: #eeeeee;
+    min-height: 100vh;
+    background-size: cover;
+    align-items: center;
 }
 
 #header {
@@ -50,11 +54,6 @@
     width: 100%;
     height: 15em;
     object-fit: cover;
-}
-
-section .container {
-    position: relative;
-    top: 1em;
 }
 
 #contactForm {
