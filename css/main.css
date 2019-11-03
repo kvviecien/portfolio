@@ -33,5 +33,11 @@
 }
 
 #header {
-    margin-top: 3.5em;
+    display: flex;
+    background-image: url("../img/mountains.jpeg");
+    background-size: cover;
+    height: 100vh;
+
+    justify-content: center;
+    align-items: center;
 }
