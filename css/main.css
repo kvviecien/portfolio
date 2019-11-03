@@ -42,9 +42,33 @@
     background-image: url("../img/mountains.jpeg");
     background-size: cover;
     height: 100vh;
-
-    justify-content: center;
     align-items: center;
+}
+
+.header-intro {
+    background-size: auto auto;
+    padding: 0.1em;
+    padding-right: 0.5em;
+    font-size: 1.5em;
+    text-align: center;
+    background-color: rgba(256, 209, 54, 0.8);
+}
+
+@media screen and (min-width: 992px) {
+    .header-intro {
+        font-size: 2em;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .header-intro {
+        font-size: 2.5em;
+    }
+}
+
+.header-intro .intro-description {
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 #portfolio .portfolioitem {
