@@ -59,31 +59,46 @@
     object-fit: cover;
 }
 
-.project-overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #fed136;
-}
-
-.portfolioitem:hover .project-overlay {
-    opacity: 0.8;
+#portfolio a {
+    text-decoration: none;
+    color: #212529;
 }
 
 #portfolio .text {
-    color: #212529;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
+    padding: 0.5em 0;
+    line-height: 1.2;
+    background-color: rgba(256, 209, 54, 0.8);
+    border-radius: 0.25em;
+}
+
+
+@media screen and (min-width: 992px) {
+    .project-overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #fed136;
+    }
+
+    .portfolioitem:hover .project-overlay {
+        opacity: 0.8;
+    }
+
+    #portfolio .text {
+        color: #212529;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
 }
 
 #portfolio .text h5 {
