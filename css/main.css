@@ -56,6 +56,10 @@
     object-fit: cover;
 }
 
+#about {
+    background-color: #fed136;
+}
+
 #contactForm {
     margin: 1em 0;
 }
