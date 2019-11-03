@@ -59,7 +59,33 @@
 
 #about {
     background-color: #fed136;
+    display: flex;
 }
+
+.about-heading {
+    margin-bottom: 3em;
+}
+
+#about .aboutimg {
+    width: 100%;
+}
+
+#about .about-description {
+    align-self: center;
+    padding-top: 2em;
+}
+
+@media screen and (min-width: 992px) {
+    #about .about-description {
+        z-index: 1;
+        position: relative;
+        left: -5em;
+        text-align: left;
+        background-color: rgba(33, 37, 41, 0.85);
+        padding: 1.5em;
+        color: #eeeeee;
+    }
+  }
 
 #contactForm {
     margin: 1em 0;
