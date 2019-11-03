@@ -4,7 +4,7 @@
 
 .nav-link,
 .navbar-brand {
-    color: #f4f4f4;
+    color: #eeeeee;
     cursor: pointer;
 }
 
@@ -13,8 +13,9 @@
 }
 
 .nav-link:hover {
-    background: #f4f4f4;
+    background: #fed136;
     color: #212529;
+    border-radius: .25rem;
 }
 
 .navbar-collapse {
