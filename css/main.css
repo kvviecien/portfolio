@@ -26,6 +26,9 @@
     background: #fed136;
 }
 
+a.navbar-brand:hover {
+    color: #fed136;
+}
 
 #portfolio,
 #about,
