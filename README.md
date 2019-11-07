@@ -24,4 +24,5 @@ https://kvviecien.github.io/portfolio-website
 
 ## Author
 **Olimpia Kwiecień** [@kvviecien](https://github.com/kvviecien)
+
 I made this.
