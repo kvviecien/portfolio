@@ -1,4 +1,8 @@
 # Portfolio Website
+
+Link to preview the page: 
+https://kvviecien.github.io/portfolio-website
+
 ## Intro
 This is the site for whatever (business portfolio preferably), whatever happens, this is where you'll find it. 
 Whatever the weather, whatever the day, whatever the time.
@@ -12,10 +16,6 @@ For a mobile view click [HERE](https://i.imgur.com/AifrF05.png).
 
 Desktop view:
 ![](https://i.imgur.com/X9FPBDY.jpg)
-
-
-## URL
-https://kvviecien.github.io/portfolio-website
 
 ## Tools
 * HTML
